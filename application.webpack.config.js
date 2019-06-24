@@ -31,5 +31,9 @@ module.exports = {
     },
     plugins: [
         new VueLoaderPlugin()
-    ]
+    ],
+    node: {
+        fs: "empty",
+        net: "empty"
+    }
 }

@@ -1,1 +1,24 @@
- 
+
+.list-title {
+	flex: 1;
+} 
+
+.list-description {
+	color:gray;
+}
+
+.list-button {
+	margin-left: 10px;
+}
+
+.top-anel {
+
+}
+
+.top-panel-space-block {
+	flex: 1;
+}
+
+.top-panel-button-block {
+	padding: 10px;
+}

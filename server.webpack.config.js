@@ -31,8 +31,8 @@ module.exports = {
     plugins: [
         
     ],
-    /*node: {
+    node: {
         fs: "empty",
         net: "empty"
-    }*/
+    }
 }
