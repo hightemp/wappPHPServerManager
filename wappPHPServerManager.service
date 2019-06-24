@@ -1,0 +1,10 @@
+[Unit]
+Description=PHP server manager
+
+[Service]
+Restart=always
+RestartSec=10
+ExecStart=node /usr/share/wappPHPServerManager/server.js
+
+[Install]
+WantedBy=multi-user.target 

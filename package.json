@@ -1,0 +1,37 @@
+{
+  "name": "wapp-php-server-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.20",
+    "css-loader": "^2.1.1",
+    "express": "^4.17.1",
+    "mini-css-extract-plugin": "^0.6.0",
+    "raw-loader": "^3.0.0",
+    "style-loader": "^0.23.1",
+    "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
+    "vue-resource": "^1.5.1",
+    "vue-snotify": "^3.2.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "scripts": {
+    "build": "rm -f dist/* && webpack -d --config application.webpack.config.js && webpack -d --config server.webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hightemp/wappPHPServerManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hightemp/wappPHPServerManager/issues"
+  },
+  "homepage": "https://github.com/hightemp/wappPHPServerManager#readme"
+}
